@@ -54,7 +54,7 @@
 
 .slidebar__input {
     background-color: #373a3c;
-    padding: 5px 20px;
+    padding: 7px 20px;
     border-radius: 5px;
     border: 0.1px solid grey;
 }
@@ -62,7 +62,7 @@
 .navbar {
     background-color: #373a3c;
     justify-content: center;
-    border-bottom: 0.1px solid grey;
+    border-bottom: 0.1px solid grey;   
 }
 
 .slidebar__icon-search {
@@ -71,9 +71,9 @@
     border: 0.1px solid grey;
     border-radius: 5px;
     padding: 5px 16px;
-    color: white;
-    
+    color: white;   
 }
+
 
 .dropdown {
     margin: 10px 0;
@@ -88,29 +88,36 @@
 }
 
 .btn-primary {
-    height: 50px;
+    height: 40px;
 }
 
 .btn {
+    background-color: #373a3c;
     padding: 5px 22px;
     display: flex;
     align-items: center;
     width: 88%;
-    margin: 18px 0;
     margin-left: 18px;
+    border-color: #808080;
     
 }
 
 .form-check {
     color: #fff;
-    margin-left: 23px;
-    font-size: 20px;
+    margin-left: 21px;
+    font-size: 18px;
 }
 
 .btn-secondary {
-    padding: 5px 22px;  
-    
+    padding: 5px 22px;   
 }
+
+.slidebar__checkbox {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+
 
 .main {
     background-color: #dce1e0;
